@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 
-import { useWishlist } from '../context/ WishlistContext';
+import { useWishlist } from '../context/WishlistContext';
 import { useEffect, useState } from 'react';
 import { client } from '../../sanity/lib/client';
 import Image from 'next/image';
