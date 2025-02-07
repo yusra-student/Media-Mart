@@ -7,7 +7,7 @@ import Image from "next/image";
 
 declare global {
   interface Window {
-    Snipcart: {
+    Snipcart?: {
       refresh: () => void;
     };
   }
