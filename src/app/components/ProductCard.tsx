@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { urlFor } from '../../sanity/lib/image';
 import { useCart } from '../context/CartContext';
-import { useWishlist } from '../context/ WishlistContext';
+import { useWishlist } from '../context/WishlistContext';
 import Link from 'next/link';
 import { Heart } from 'lucide-react';
 import { motion } from 'framer-motion';
