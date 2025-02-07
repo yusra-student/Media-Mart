@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { FaStar, FaStarHalf, FaShoppingCart, FaEdit, FaTrash } from 'react-icons/fa';
 import { BsCheckCircle } from 'react-icons/bs';
 import { useCart } from '../context/CartContext';
-import { useWishlist } from '../context/ WishlistContext';
+import { useWishlist } from '../context/WishlistContext';
 import { urlFor } from '../../sanity/lib/image';
 import { Heart } from 'lucide-react';
 
